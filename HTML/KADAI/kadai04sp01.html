@@ -1,0 +1,51 @@
+<!--14jy0123 choi jung moon-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ｱﾝｹ-ﾄ入力フォ－ム</title>
+</head>
+<body>
+	<form method="post" action="kadai04r.php">
+		<h1>ｱﾝｹ-ﾄ入力フォ－ム</h1>
+		
+		<p>あなたご自身のことをお答ください。</p>
+		
+		<dl>
+			<dt>クラス：</dt>
+			<dd>
+				<select name="kurasu">
+					<option>***クラス***</option>
+					<option>12ｊｙ</option>
+					<option>13ｊｙ</option>
+					<option>14ｊｙ</option>
+					<option>その他</option>
+				</select>
+			</dd>	
+			<dt>学籍番号:</dt>
+			<dd><input type="text" name="gakuseki" value="14jy" size="8"></dd>
+			<dt>氏名:</dt>
+			<dd><input type="text" name="shimei"></dd>
+			<dt>性別：</dt>
+			<dd>
+				<input type="radio" name="seibetsu" value="男" checked> 男
+				<input type="radio" name="seibetsu" value="女"> 女
+			</dd>	
+			<dt>興味のあること（複数回答可）:</dt>
+			<dd>
+				<input type="checkbox" name="kyoumi[]" value="占い"> 占い
+				<input type="checkbox" name="kyoumi[]" value="釣り"> 釣り
+				<input type="checkbox" name="kyoumi[]" value="ショッピング"> ショッピング
+				<input type="checkbox" name="kyoumi[]" value="健康"> 健康
+			</dd>
+		</dl>		
+		<p>
+			<textarea name="iken" cols="50" rows="10">自由に意見をお書きください。</textarea>	
+		</p>
+		<p>
+			<input type="submit" value="送信">
+			<input type="reset" value="クリア">
+		</p>
+	</form> 
+</body>
+</html>

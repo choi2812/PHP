@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォーム***チェックボックス***</title>
+</head>
+<body>
+<form method="post" action="ren044r.php">
+<p>
+あなたの持っているもの:
+携帯電話携帯電話
+ノート型パソコンノート型パソコン
+デスクトップ型パソコンデスクトップ型パソコン
+</p>
+<p>
+<input type="submit" value="送信">
+</p>
+</form>
+</body>
+</html>

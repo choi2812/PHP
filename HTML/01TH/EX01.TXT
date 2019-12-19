@@ -1,0 +1,15 @@
+HTML実習手順
+HTMLファイルの作成方法
+Zドライブの中にphpフォルダ→htmlフォルダ→base.htmlを作成する。
+base.htmlを作成したいファイル名（ex．kadai01.html）に変更し、その中にテキストファイルをコピーする。
+タグをつけて、HTMLファイルを完成させる。
+HTMLファイルの閲覧方法
+ブラウザに表示したいHTMLファイルのURL（ex．http:/localhost/html/XXth/XX.html）を入力する。
+表示されたHTMLファイルを確認する。
+変更したHTMLファイルは更新して閲覧する。
+使用するブラウザ
+　Google　Chrome
+使用するWebサーバ
+　Apache HTTP Server
+使用するテキストエディタ
+　サクラエディタ

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+     <title>お問い合わせフォーム</title>
+  </head>
+  <body>
+  <h1>お問い合わせフォーム</h1>
+    <form method="post" action="ex05_1.php">
+      <p>
+      会社名：<input type="text" name="company" value="">
+      </p>
+      <p>
+      ご担当者名：<input type="text" name="name" value="">
+      </p> 
+      <p>
+      メールアドレス：<input name="mail" value="">
+      </p>
+      <p>
+      ホームページアドレス：<input  name="homepage" value="">
+      </p>      
+      <p>
+      〒：<input type="text" name="post" id="post" pattern="\d{3}-\d{4}">
+      住所：<input type="text" name="address" value="">
+      </p>
+      <p>
+      電話番号：<input  name="tel1" value="">-
+      <input  name="tel2" value="">-
+      <input  name="tel3" value="">
+      </p>      
+      来訪希望日：<input  name="visitdate" value="">
+      </p>      
+      </p>      
+      来訪希望時間：<input  name="visittime" value="">
+      </p>      
+      <p>
+      <input type="submit" value="送信" />
+      <input type="reset" value="クリア" />
+      </p>
+    </form>
+  </body>
+</html>

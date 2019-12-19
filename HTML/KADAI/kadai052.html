@@ -1,0 +1,57 @@
+<!--14jy0123 choi jung moon-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>商品検索サイト</title>
+</head>
+	<body>
+		<h1>新規ユ－ザ登録</h1>
+		<p>新しくユーザ登録をします。基本情報は必須です。</p>
+		<form method="post" action="kadai052r.php">
+			<fieldset>
+				<legend>基本情報</legend>
+				<p>ユーザID: <input type="text" name="userid" value="14jy"></p>
+				<p>氏名:<input type="text" name="username"></p>
+				<p>パスワ－ド：<input type="password" name="pass" size="8"></p>
+				<p>パスワ－ド確認：<input type="password" name="pass2" size="8"></p>
+			</fieldset>
+			<fieldset>
+				<legend>任意情報</legend>
+				<p>メ－ルアドレス: <input type="email" name="mail" value=""></p>
+				<p>誕生日:<input type="date" name="birthday"value=""></p>
+				<p>
+				出身地：
+					<select name="birtharea">
+						<option value="*出身地*">*出身地*</option>
+						<option value="北海道">北海道</option>
+						<optgroup label="東北">
+							<option value="青森">青森県</option>
+							<option value="岩手">岩手県</option>
+							<option value="秋田">秋田県</option>
+							<option value="宮城">宮城県</option>
+							<option value="山形">山形県</option>
+							<option value="福島">福島県</option>
+						</optgroup>	
+						<optgroup label="関東">
+							<option value="東京">東京都</option>
+							<option value="埼玉">埼玉県</option>
+							<option value="千葉">千葉県</option>
+							<option value="神奈川">神奈川県</option>
+							<option value="茨城">茨城県</option>
+							<option value="栃木">栃木県</option>
+							<option value="群馬">群馬県</option>
+						</optgroup>
+						<option value="外国籍">外国籍</option>
+					</select>
+				</p>
+				<p>フロフィ－ル：</p>
+				<p><textarea name="profile" cols="50" rows="10"></textarea>	</p>
+			</fieldset>
+			<p>
+				<input type="submit" value="送信">
+				<input type="reset" value="取り消し">
+			</p>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>HTMLの練習_リスト</title>
+</head>
+<body>
+<ol>
+<li>文書の構造を定義する最も基本的なタグ</li>
+<li>画像表示やリンクのためのタグ</li>
+<li>見た目の体裁を整えるタグ</li>
+<li>テーブル関連のタグ</li>
+<li>フォーム関連のタグ</li>
+</ol>
+<ul>
+<li>文書の構造を定義する最も基本的なタグ</li>
+<li>画像表示やリンクのためのタグ</li>
+<li>見た目の体裁を整えるタグ</li>
+<li>テーブル関連のタグ</li>
+<li>フォーム関連のタグ</li>
+</ul>
+</body>
+</html>

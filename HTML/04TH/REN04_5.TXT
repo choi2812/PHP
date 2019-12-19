@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">>
+<title>フォーム***ドロップダウンリスト***</title>
+</head>
+<body>
+<form method="post" action="ren045r.php">
+<p>
+あなたの住んでいる都道府県:
+東京都
+埼玉県
+神奈川県
+千葉県
+その他
+</p>
+<p>
+<input type="submit" value="送信">
+</p>
+</form>
+</body>
+</html>

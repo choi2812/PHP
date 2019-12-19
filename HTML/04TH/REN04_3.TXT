@@ -1,0 +1,19 @@
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォーム***ラジオボタン***</title>
+</head>
+<body>
+<form method="post" action="ren043r.php">
+<p>
+あなたの好きな色:
+緑緑
+黄色黄色
+赤赤
+</p>
+<p>
+<input type="submit" value="送信">
+</p>
+</form>
+</body>
+</html>

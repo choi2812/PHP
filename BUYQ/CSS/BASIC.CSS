@@ -1,0 +1,189 @@
+H1
+{
+    BORDER-RIGHT: aqua thick;
+    BORDER-TOP: aqua 4px;
+    BORDER-LEFT: aqua 10px ridge;
+    BORDER-BOTTOM: aqua 4px ridge
+}
+H2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: dodgerblue 4px solid
+}
+.description
+{
+    FONT-SIZE: smaller
+}
+.label
+{
+    FONT-WEIGHT: bold
+}
+H3
+{
+	margin: 30px;
+	border-top-style: none;
+	border-bottom: #cc00cc 2px dashed;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-color: #9900cc;
+}
+TABLE
+{
+    BORDER-TOP-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-COLLAPSE: collapse;
+    BORDER-BOTTOM-STYLE: none
+}
+TABLE.result
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-COLLAPSE: collapse
+}
+TH.result
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: lightyellow
+}
+TD
+{
+    TEXT-ALIGN: left
+}
+TD.result
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 10px;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}TD.resultTotal
+{
+    border-right: black 1px solid;
+    padding-right: 10px;
+    border-top: black 1px solid;
+    padding-left: 10px;
+    border-left: black 1px solid;
+    border-bottom: black 1px solid;
+    font-weight: bold;
+    text-align: right;
+}
+TD.resultCur
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 10px;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    TEXT-ALIGN: right
+}
+IMG.display
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.num
+{
+    TEXT-ALIGN: right
+}
+FORM.login
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 15px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 15px;
+    PADDING-BOTTOM: 15px;
+    BORDER-LEFT: black 1px solid;
+    WIDTH: 80%;
+    PADDING-TOP: 15px;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: aliceblue;
+    TEXT-ALIGN: center
+}
+H1 A:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+H1 A:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+H1 A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+H1 A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.errMessage
+{
+	font-weight: normal;
+	text-transform: none;
+	color: red;
+	font-variant: normal;
+	font-size: x-small;
+}
+TABLE.selPayWay th
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    TEXT-ALIGN: center;
+    background-color: silver;
+    white-space: nowrap;
+}
+TABLE.selPayWay td
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    TEXT-ALIGN: left;
+}
+TABLE.selPayWay
+{
+    BORDER-COLLAPSE: collapse;
+    WIDTH: 80%;
+}
+table.login
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 15px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 15px;
+    PADDING-BOTTOM: 15px;
+    BORDER-LEFT: black 1px solid;
+    WIDTH: 80%;
+    PADDING-TOP: 15px;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: aliceblue;
+    TEXT-ALIGN: left;
+}
+.resultHead
+{
+    font-weight: bolder;
+    background-color: #ffffcc;
+    text-align: right;
+    border-bottom: black thin solid;
+}
+number_format
+{
+	text-align: right;
+}

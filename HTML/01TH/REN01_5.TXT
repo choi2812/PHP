@@ -1,0 +1,8 @@
+HTMLの練習_定義型リスト
+dl要素(Definition　List)
+用語の説明に使用する。
+辞書のような形で表示される。
+dt要素(Definition　Term)
+定義する用語を記述する。
+dd要素(Definition　Discription)
+用語の内容(定義）を記述する。

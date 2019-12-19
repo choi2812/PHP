@@ -1,0 +1,15 @@
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォーム***長い文章を入力する***</title>
+</head>
+<body>
+<p>行と列を指定する。
+</p>
+<form method="post" action="ren046r.php">
+自己紹介を書いてください
+<input type="submit" value="送信">
+</p>
+</form>
+</body>
+</html>

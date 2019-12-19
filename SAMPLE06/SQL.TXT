@@ -1,0 +1,21 @@
+select * from Cart
+
+insert into Cart values('a123456789012345678901234567890a','101',10)
+
+insert into Cart values('a123456789012345678901234567890a','102',20)
+
+insert into Cart values('a123456789012345678901234567890a','103',30)
+
+insert into Cart values('b123456789012345678901234567890b','201',05)
+
+insert into Cart values('b123456789012345678901234567890b','301',15)
+
+
+//sample06_04用
+20 ;delete from "JYNET\14jy0123".Cart
+
+//sample06_07
+grant exec on pro_Goods_info_all to inetuser,manager
+
+//sample06_08
+grant exec on Goodsinfo to inetuser,manager

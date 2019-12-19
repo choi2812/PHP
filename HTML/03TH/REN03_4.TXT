@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>14jy0123 choi jung moon</title>
+</head>
+<body>
+	<table border="1" cellspacing="1" cellpadding="1">
+		<caption>携帯電話加入台数</caption>
+		<thead style="background-color:#CCFF99">
+		<tr>
+			<th>携帯電話業者数</th>
+			<th>12年10月末</th>
+			<th>12年9月末</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>>
+			<td>ＮＴＴドコモ</td>
+			<td>60,793,800</td> 
+			<td>60,786,600</td> 
+		</tr>
+		<tr>
+			<td>ソフトバンク</td> 
+			<td>30,745,400</td> 
+			<td>30,461,200</td> 
+		</tr>
+		<tr>	
+			<td>au</td> 
+			<td>36,349,100</td> 
+			<td>36,110,400</td> 
+		</tr>
+		</body>
+		<tfoot style="background-color:#ffccff">
+		<tr>	
+			<td>携帯電話総計</td> 
+			<td>127,888,300</td> 
+			<td>127,358,200</td>
+		</tr>
+		</tfoot>
+	</table>
+</body>
+</html>  	

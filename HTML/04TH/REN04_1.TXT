@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォーム***テキスト型***</title>
+</head>
+<body>
+あなたの名前:
+お勧めサイト:
+URL:
+</body>
+</html>

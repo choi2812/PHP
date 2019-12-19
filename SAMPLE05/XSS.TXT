@@ -1,0 +1,7 @@
+sample05_02h.php
+以下のタグをコピーしてテキストボックスに入力する
+<b onmouseover ="javascript:alert('わーい！xssにひっかっかたね')">ここにマウスを載せてください</b>
+
+sample05_04.php
+以下コピーしてテキストボックスに入力する
+z: | testapp.exe
